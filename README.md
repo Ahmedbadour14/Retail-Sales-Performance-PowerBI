@@ -104,5 +104,5 @@ The report is engineered on a clean **Star Schema** data model to ensure fast qu
 
 ## 👤 Author
 **Ahmed Badour** — *Data Analyst & Analytics Engineer*  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/ahmed-badour-)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-badour-)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ahmedbadour14)
