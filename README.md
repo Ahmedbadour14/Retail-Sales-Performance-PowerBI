@@ -65,7 +65,10 @@ The report is engineered on a clean **Star Schema** data model to ensure fast qu
 ├── 📁 Dashboard/
 │   └── Retail_Analytics_Dashboard.pbix      # Complete Power BI report file
 ├── 📁 Dataset/
-│   └── ...                                  # Raw & cleaned retail CSV/Excel tables
+│   ├── DIM_Products.xlsx                    # Product dimension table
+│   ├── Returns_Data.xlsx                    # Product returns log & reasons
+│   ├── Source_Mobile_App.xlsx               # Mobile application sales transactions
+│   └── Source_Online_Store.xlsx             # Website & store sales transactions
 ├── 📁 DAX_Measures/
 │   └── DAX_Measures.md                      # Documented DAX formulas (Time Intelligence, RFM, Profitability)
 ├── 📁 Images/
@@ -74,3 +77,32 @@ The report is engineered on a clean **Star Schema** data model to ensure fast qu
 │   ├── 03_Products_Operations.png           # Page 3 high-res screenshot
 │   └── 04_Data_Model.png                    # Star Schema relationship view
 └── README.md
+```
+---
+## 📸 Dashboard Preview
+
+### 1. Executive Overview
+![Executive Overview](Images/01_Executive_Overview.png)
+
+### 2. Customer & RFM Analysis
+![Customer & RFM](Images/02_Customer_RFM.png)
+
+### 3. Products, Stores & Operations
+![Products & Operations](Images/03_Products_Operations.png)
+
+### 4. Star Schema Data Model
+![Data Model](Images/04_Data_Model.png)
+
+---
+
+## 🚀 How to Use
+1. Clone this repository or download `Dashboard/Retail_Analytics_Dashboard.pbix`.
+2. Open the file using **Microsoft Power BI Desktop** (March 2024 or later recommended).
+3. Use the left sidebar icons (`Ctrl + Click` in Desktop) and top `Period` slicer to explore trends dynamically.
+
+---
+
+## 👤 Author
+**Ahmed Badour** — *Data Analyst & Analytics Engineer*  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/ahmed-badour-)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ahmedbadour14)
